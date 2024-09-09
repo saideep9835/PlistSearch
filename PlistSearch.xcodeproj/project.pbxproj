@@ -16,6 +16,10 @@
 		A516E43D2C8F449C00B8095C /* PlistSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E43C2C8F449C00B8095C /* PlistSearchTests.swift */; };
 		A516E4472C8F449C00B8095C /* PlistSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E4462C8F449C00B8095C /* PlistSearchUITests.swift */; };
 		A516E4492C8F449C00B8095C /* PlistSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E4482C8F449C00B8095C /* PlistSearchUITestsLaunchTests.swift */; };
+		A516E4562C8F44F800B8095C /* PList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A516E4552C8F44F800B8095C /* PList.plist */; };
+		A516E4582C8F46C000B8095C /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E4572C8F46C000B8095C /* DemoCell.swift */; };
+		A516E45A2C8F501700B8095C /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E4592C8F501700B8095C /* MyModel.swift */; };
+		A516E45C2C8F509B00B8095C /* ArcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516E45B2C8F509B00B8095C /* ArcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A516E4422C8F449C00B8095C /* PlistSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlistSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A516E4462C8F449C00B8095C /* PlistSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistSearchUITests.swift; sourceTree = "<group>"; };
 		A516E4482C8F449C00B8095C /* PlistSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A516E4552C8F44F800B8095C /* PList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PList.plist; sourceTree = "<group>"; };
+		A516E4572C8F46C000B8095C /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		A516E4592C8F501700B8095C /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
+		A516E45B2C8F509B00B8095C /* ArcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				A516E42E2C8F449C00B8095C /* Assets.xcassets */,
 				A516E4302C8F449C00B8095C /* LaunchScreen.storyboard */,
 				A516E4332C8F449C00B8095C /* Info.plist */,
+				A516E4552C8F44F800B8095C /* PList.plist */,
+				A516E4572C8F46C000B8095C /* DemoCell.swift */,
+				A516E4592C8F501700B8095C /* MyModel.swift */,
+				A516E45B2C8F509B00B8095C /* ArcViewController.swift */,
 			);
 			path = PlistSearch;
 			sourceTree = "<group>";
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A516E42F2C8F449C00B8095C /* Assets.xcassets in Resources */,
+				A516E4562C8F44F800B8095C /* PList.plist in Resources */,
 				A516E4322C8F449C00B8095C /* Base in Resources */,
 				A516E42D2C8F449B00B8095C /* Base in Resources */,
 			);
@@ -259,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A516E42A2C8F449B00B8095C /* ViewController.swift in Sources */,
+				A516E45C2C8F509B00B8095C /* ArcViewController.swift in Sources */,
 				A516E4262C8F449B00B8095C /* AppDelegate.swift in Sources */,
+				A516E45A2C8F501700B8095C /* MyModel.swift in Sources */,
+				A516E4582C8F46C000B8095C /* DemoCell.swift in Sources */,
 				A516E4282C8F449B00B8095C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>States</key>
+	<array>
+		<string>Andhra Pradesh</string>
+		<string>Telangana</string>
+		<string>Goa</string>
+		<string>Karnataka</string>
+		<string>Maharastra</string>
+		<string>Tamilnadu</string>
+		<string>Kerala</string>
+		<string>Punjab</string>
+	</array>
+</dict>
+</plist>
